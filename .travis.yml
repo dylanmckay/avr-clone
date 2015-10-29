@@ -1,0 +1,11 @@
+
+language: generic
+script:
+  - make check
+
+addons:
+    apt:
+        sources:
+        - pgavin-ghdl
+        packages:
+        - ghdl
